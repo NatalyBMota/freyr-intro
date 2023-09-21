@@ -497,6 +497,12 @@ textarea {
     }
 }    
 @media screen and (min-width: 600px) and (max-width: 720px) {
+    #bannerImgTextOverlay {
+        top: 5rem;
+    }
+    #bannerImgTextOverlay h2 {
+        font-size: 180%;
+    }
     input {
         width: 67%;
     }
@@ -524,6 +530,12 @@ textarea {
     }
 }
 @media screen and (min-width: 510px) and (max-width: 600px), screen and (min-width: 0px), screen and (min-width: 523px) {
+    #bannerImgTextOverlay {
+        top: 5rem;
+    }
+    #bannerImgTextOverlay h2 {
+        font-size: 180%;
+    }
     input {
         width: 77%;
         min-width: 245px;
@@ -545,10 +557,16 @@ textarea {
     }
 }
 
-@media screen and (min-width: 523px) and (max-width: 599px) {
+@media screen and (min-width: 523px) and (max-width: 600px) {
     img {
         top: 1.4rem;
         width: 5rem;
+    }
+    #bannerImgTextOverlay {
+        top: 5rem;
+    }
+    #bannerImgTextOverlay h2 {
+        font-size: 170%;
     }
 }
 @media screen and (min-width: 0px) and (max-width: 523px) {
@@ -563,6 +581,12 @@ textarea {
         margin-right: .5rem;
         width: 6rem;
         margin-top: 2.3rem;
+    }
+    #bannerImgTextOverlay {
+        top: 7.5rem;
+    }
+    #bannerImgTextOverlay h2 {
+        font-size: 150%;
     }
     #experience li.outerList {
         margin-left: -0.5rem;
