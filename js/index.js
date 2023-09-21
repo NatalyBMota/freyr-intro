@@ -169,11 +169,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let small = document.createElement("small");
     let attribution = document.createElement("p");
     copyrightNotice.innerHTML = `&copy; Nataly Mota ${thisYear}`;
-    small.innerHTML = `Music and banner image from royalty free stock from Pixabay. Used with license.`;
+    small.innerHTML = `<a href="https://pixabay.com/music/rock-unlimited-motivation-background-vlog-music-158250/" alt="Link to where the royalty-free soundtrack for this website was obtained from." title="This link leads to where the royalty free music that is in this website can be legally downloaded for free." target="_blank">Music</a> and banner image from royalty free stock from <a href="https://pixabay.com/" alt="Link to stock image and stock sound website" title="Website that hosts freely available, royalty free content, such as images and audio files, for use with a license, under certain conditions." target="_blank">Pixabay</a>. Used with license.`;
     small.id = "credits";
     attribution.appendChild(small);
     console.log(attribution);
-    // footer.appendChild(copyrightNotice);
     copyrightSection.appendChild(copyrightNotice);
     copyrightSection.appendChild(attribution);
   }
