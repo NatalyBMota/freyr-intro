@@ -691,3 +691,9 @@ section#connect {
     padding-bottom: 3.5rem;
     text-align: center;
 }
+#credits {
+    display: inline-block;
+    margin-top: 0.3rem;
+    width: 25rem;
+    font-style: italic;
+}

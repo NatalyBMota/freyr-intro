@@ -166,14 +166,16 @@ document.addEventListener("DOMContentLoaded", () => {
     // footer = document.querySelector('footer');
     let copyrightSection = document.getElementById("copyright");
     let copyrightNotice = document.createElement("p");
-    copyrightNotice.innerHTML = `&copy; Nataly Mota ${thisYear}
-    <br>
-    <br>
-    <small><em>Music and banner image from royalty free stock
-    <br>
-    from Pixabay. Used with license.</em></small>`;
+    let small = document.createElement("small");
+    let attribution = document.createElement("p");
+    copyrightNotice.innerHTML = `&copy; Nataly Mota ${thisYear}`;
+    small.innerHTML = `Music and banner image from royalty free stock from Pixabay. Used with license.`;
+    small.id = "credits";
+    attribution.appendChild(small);
+    console.log(attribution);
     // footer.appendChild(copyrightNotice);
     copyrightSection.appendChild(copyrightNotice);
+    copyrightSection.appendChild(attribution);
   }
   placeCopyrightNotice();
 
