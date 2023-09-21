@@ -412,7 +412,7 @@ textarea {
         margin-right: .5rem;
     }
     #main-navigation ul {
-        grid-template-columns: 1fr minmax(173px, 200px) 1fr;
+        grid-template-columns: 1fr 1fr minmax(180px, 200px);
     }
 }
 @media screen and (min-width: 523px) and (max-width: 720px) {
